@@ -11,7 +11,9 @@ DURATION: 4 WEEKS
 MENTOR: NEELA SANTHOSH KUMAR
 
 DESCRIPTION:
-Task-4:This task focuses on simulating a typical backup and recovery workflow using SQL for a relational database. It is designed to demonstrate how data can be safely backed up and restored in the event of accidental data loss or system failure. Although actual backup utilities like mysqldump or PostgreSQL's pg_dump are used in production environments, this simulation uses SQL queries to conceptually replicate those steps.
+
+Task-4:DATABASE-BACKUP-AND-RECOVERY
+This task focuses on simulating a typical backup and recovery workflow using SQL for a relational database. It is designed to demonstrate how data can be safely backed up and restored in the event of accidental data loss or system failure. Although actual backup utilities like mysqldump or PostgreSQL's pg_dump are used in production environments, this simulation uses SQL queries to conceptually replicate those steps.
 
 The process starts by creating an orders table that holds transactional data. This table includes five columns: order_id, customer_name, product, quantity, and order_date. These fields represent a simplified version of an e-commerce or retail order management system.
 
@@ -26,3 +28,6 @@ After simulating the failure, the recovery process is initiated. The orders tabl
 Finally, a SELECT * FROM orders; query is run to verify that the data has been successfully restored. If all steps were followed correctly, the table will contain the same three original records, proving that the backup and recovery process worked effectively.
 
 This task serves as an essential example for understanding the importance of regular database backups and the ability to restore systems quickly during emergencies. It reinforces database administration concepts such as disaster recovery planning, data durability, and operational continuity. The approach taken here is simplified for learning purposes but captures the essence of a real-world backup and recovery strategy using SQL.
+
+#Output:
+
