@@ -30,4 +30,5 @@ Finally, a SELECT * FROM orders; query is run to verify that the data has been s
 This task serves as an essential example for understanding the importance of regular database backups and the ability to restore systems quickly during emergencies. It reinforces database administration concepts such as disaster recovery planning, data durability, and operational continuity. The approach taken here is simplified for learning purposes but captures the essence of a real-world backup and recovery strategy using SQL.
 
 #Output:
+![Image](https://github.com/user-attachments/assets/60e6bdac-09e6-42a2-ac33-fa55f2c63bc9)
 
